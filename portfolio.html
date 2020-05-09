@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="./index.html" lang="en">Web Studio</a>
-        <menu>
+        <a href="./index.html" lang="en" class="logo-header"
+          ><span class="logo-accent">Web</span> Studio</a
+        >
+        <menu class="site-pages">
           <li><a href="">Студия</a></li>
           <li><a href="">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </menu>
       </nav>
-      <ul>
+      <ul class="contacts">
         <li>
           <img src="./images/envelope-hover.svg" alt="Почта компании" />
           <a href="" class="mail">info@devstudio.com</a>
@@ -30,64 +36,65 @@
       </ul>
     </header>
     <main>
-      <menu>
+      <menu class="portfolio-navigation">
         <li><a href="">Все</a></li>
         <li><a href="">Веб-сайты</a></li>
         <li><a href="">Приложения</a></li>
         <li><a href="">Дизайн</a></li>
         <li><a href="">Маркетинг</a></li>
       </menu>
-      <section>
+      <section class="portfolio-works">
         <h1>Портфолио работ</h1>
         <ul>
-          <li>
+          <li><a href="">
+            <img src="./images/pr-1.jpg" alt="Изображение ноутбука" />
             <p>
               Технокряк это современная площадка распространения коронавируса.
               Компании используют эту платформу для цифрового шпионажа и атак на
               защищённые сервера конкурентов.
             </p>
             <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <p>Веб-сайт</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/pr-2.jpg" alt="Новый Орлеан, Золотые Звезды" />
             <h2>Постер New Orlean vs Golden Stars</h2>
-            <p>Дизайн</p>
+            <p>Дизайн</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/pr-3.jpg" alt="Ресторан" />
             <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <p>Приложение</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/pr-4.jpg" alt="Проект Прайм" />
             <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <p>Маркетинг</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/pr-5.jpg" alt="Проект Боксез" />
             <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <p>Приложение</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/pr-6.jpg" alt="Веб-сайт" />
             <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <p>Веб-сайт</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/pr-7.jpg" alt="Журнал по дизайну" />
             <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <p>Дизайн</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/pr-8.jpg" alt="Изображение этикетки" />
             <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <p>Маркетинг</p></a>
           </li>
-          <li>
+          <li><a href="">
             <img src="./images/box-1.jpg" alt="Изображение ноутбука" />
             <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <p>Приложение</p></a>
           </li>
         </ul>
       </section>
@@ -95,12 +102,16 @@
     <!-- Футер -->
     <footer>
       <div>
-        <a href="./index.html" lang="en">Web Studio</a>
+        <a href="./index.html" lang="en" class="logo-footer"
+          ><span class="logo-accent">Web</span> Studio</a
+        >
         <address>
           <ul>
-            <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="">info@example.com</a></li>
-            <li><a href="">+38 099 111 11 11</a></li>
+            <li class="footer-address">
+              <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li class="footer-address-box"><a href="">info@example.com</a></li>
+            <li class="footer-address-box"><a href="">+38 099 111 11 11</a></li>
           </ul>
         </address>
       </div>
@@ -119,7 +130,7 @@
         <b>Подпишитесь на рассылку</b>
         <input type="email" />
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="footer-developed">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
