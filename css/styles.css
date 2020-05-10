@@ -29,12 +29,15 @@ body {
 
 a {
   color: var(--primary-text-color);
-  font-style: normal;
 }
 
 ul,
 menu {
   list-style: none;
+}
+
+address {
+  font-style: normal;
 }
 
 .site-menu-list,
